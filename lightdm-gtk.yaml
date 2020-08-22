@@ -1,0 +1,4 @@
+version_control: github
+src_repo: Xubuntu/lightdm-gtk-greeter
+tag_prefix: ^lightdm-gtk-greeter-
+seperator: .

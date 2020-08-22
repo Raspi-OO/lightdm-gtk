@@ -1,0 +1,14 @@
+diff -uprN lightdm-gtk-greeter-2.0.5-orig/src/lightdm-gtk-greeter.c lightdm-gtk-greeter-2.0.5/src/lightdm-gtk-greeter.c
+--- lightdm-gtk-greeter-2.0.5-orig/src/lightdm-gtk-greeter.c	2018-03-15 01:23:15.000000000 +0100
++++ lightdm-gtk-greeter-2.0.5/src/lightdm-gtk-greeter.c	2018-03-26 18:46:48.859193117 +0200
+@@ -99,8 +99,8 @@ static GtkButton    *power_ok_button, *p
+ static GtkLabel     *power_title, *power_text;
+ static GtkImage     *power_icon;
+ 
+-static const gchar *DEFAULT_LAYOUT[] = {"~spacer", "~spacer", "~host", "~spacer",
+-                                        "~session", "~a11y", "~clock", "~power", NULL};
++static const gchar *DEFAULT_LAYOUT[] = {"~host", "~spacer", "~clock", "~spacer",
++                                        "~session", "~language", "~a11y", "~power", NULL};
+ 
+ static const gchar *POWER_WINDOW_DATA_LOOP = "power-window-loop";           /* <GMainLoop*> */
+ static const gchar *POWER_WINDOW_DATA_RESPONSE = "power-window-response";   /* <GtkResponseType> */
